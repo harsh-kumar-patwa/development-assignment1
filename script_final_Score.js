@@ -1,0 +1,1 @@
+document.getElementById('finalScore').textContent = localStorage.getItem('score');
