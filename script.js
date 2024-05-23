@@ -32,7 +32,7 @@ function setRandomQuestion(currentQuestionIndex) {
   const selectedQuestion = questions[currentQuestionIndex];
   currentAnswer = selectedQuestion.answer;
 
-  document.querySelector(".question").textContent = selectedQuestion.question;
+  document.querySelector(".question h1").textContent = selectedQuestion.question;
   document.getElementById("choice1").textContent = selectedQuestion.choice1;
   document.getElementById("choice2").textContent = selectedQuestion.choice2;
   document.getElementById("choice3").textContent = selectedQuestion.choice3;
